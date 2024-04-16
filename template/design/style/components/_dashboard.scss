@@ -1,0 +1,61 @@
+.critical-products{
+    display: flex;
+    gap:20px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 24px;
+    div{
+        width:50%;
+        background-color:#fff;
+        padding: 15px;
+        font-family: $cairo;
+        h3{
+            margin-bottom: 10px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            thead{
+                td{
+                    font-weight: bold;
+                    &:last-child{
+                        text-align: left;
+                        padding-left:10px ;
+                    }
+                    
+                }
+            }
+            tr{
+                border-bottom:1px solid rgba(0,0,0,0.1);
+
+            }
+            tbody{
+                tr{
+                    &:last-child{
+                        border-bottom:none;
+                    }
+                    &:hover{
+                        background:#007cff;
+                        color:#fff;
+                    }
+                    td{
+                        padding:9px 5px;
+                        &:last-child{
+                            text-align: left;
+                            padding-left: 10px;
+                        }
+                        a{
+                            color: #045c30;
+                            .fa-solid{
+                                color: #045c30;
+                                font-size:25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

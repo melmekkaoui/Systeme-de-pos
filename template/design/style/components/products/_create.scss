@@ -1,0 +1,48 @@
+.product-category{
+    background-color:#fff;
+    margin: 24px;
+    padding: 20px;
+    form{
+        display: flex;
+        gap:20px;
+        align-items:end;
+        .form-groupe{
+            width:30%;
+        }
+        .submit{
+            width:30%;
+            font-weight:600;
+            font-family: $cairo;
+        }
+    }
+}
+.product-details{
+    background-color:#fff;
+    margin: 24px;
+    padding: 20px;
+    form{
+       
+
+            display: grid;
+            grid-template-columns: auto auto auto;
+            gap: 20px;
+
+
+            .submit-btn{
+                background-color: #0ea5e9;
+                color: #fff;
+                transition: .3s ease-in-out;
+                width: 200px;
+                height: 40px;
+                outline: none;
+                border:none;
+                font-family: $cairo;
+                
+                &:hover{
+                    background: #2563eb;
+                }
+            }
+        
+        
+    }
+}

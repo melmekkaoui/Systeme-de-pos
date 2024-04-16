@@ -1,0 +1,73 @@
+
+.content-section{
+    .sales-page{
+        background-color: #fff;
+        margin: 24px;
+        padding:5px;
+        font-family: $cairo;
+
+
+        form{
+            display: flex;
+            gap:20px;
+            align-items:end;
+            padding: 10px;
+            .form-groupe{
+                width:30%;
+            }
+            .submit{
+                width:30%;
+                font-weight:600;
+                font-family: $cairo;
+            }
+        }
+
+        
+        
+        
+    }
+    .sales-page-second{
+        margin: 24px;
+        padding:5px;
+        font-family: $cairo;
+        .sales-page-title-second{
+            background-color: $blue;
+            padding: 5px;
+            color: $light;
+            display: flex;
+            justify-content: space-between;
+            a{
+               background:$blue;
+               border:4px solid #e6a83c;
+               padding: 2px 30px;
+               font-size:29px;
+               color: rgb(5, 0, 53);
+
+            }
+        }
+        .carte-table{
+            border-collapse: collapse;
+            width: 100%;
+            th{
+                background-color: #E6913C;
+                color:#fff;
+            }
+            tr,th{
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+            tr{
+                padding:10px;
+
+                &:nth-child(even){background-color: #f2f2f2;}
+                &:hover {background-color: #ddd;}
+                td{
+                    padding: 10px;
+                    text-align: center;
+                    
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,27 @@
+.content-section {
+	position: relative;
+	width: calc(100% - 280px);
+	right: 280px;
+	transition: .3s ease;
+    font-family: $cairo;
+
+
+    nav {
+        height: 56px;
+        background: $light;
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        grid-gap: 24px;
+        font-family: $cairo;
+        font-weight: 500;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        .nav-link{
+            font-weight:bold;
+            color:$dark;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.states-section{
+    display: grid;
+    margin: 24px;
+    gap:20px;
+    font-family: 'cairo';
+    grid-template-columns: auto auto auto ;
+    .card{
+        padding:10px;
+        height:100px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 10px;
+        justify-content: space-between;
+        padding: 10px;
+
+        .data{
+            display: flex;
+            flex-direction: column;
+            margin-right: 15px;
+            .state{
+                font-weight: bold;
+                font-size: 30px;
+            }
+        }
+        
+        .fa-solid {
+            font-size:35px;
+        }
+        
+    }
+}

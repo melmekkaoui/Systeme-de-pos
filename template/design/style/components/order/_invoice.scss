@@ -1,0 +1,66 @@
+.invoice-content{
+  position: relative;
+	width: calc(100% - 280px);
+	right: 280px;
+	transition: .3s ease;
+  font-family: $latef;
+  #invoice-POS{
+    background-color: #fff;
+    margin: 24px;
+    padding:20px;
+    font-family: $latef;
+    .center-title{
+      font-size: 26px;
+      text-align: center;
+      border: 3px solid #000;
+      color:#000;
+      border:3px solid #000;
+      font-family: $marhey;
+      span{
+        margin-right:10px;
+      }
+    }
+    .order-top,.order-bottom{
+      width:100%;
+      font-size:15px;
+      margin-top:5px;
+      div{
+        margin-bottom:5px;
+      }
+    }
+    .order_content_table{
+      table, td, th {
+        border: 1px solid black;
+      }
+      
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }    
+}
+
+
+@media print {
+  #sidebar,.content-section{
+    display: none;
+  }
+  .invoice-content{
+    display: block !important;
+    position: relative;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    #invoice-POS{ 
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      padding: 5px;
+      .order-bottom{
+        font-size: 10px  !important;
+      }
+    }
+  }
+}

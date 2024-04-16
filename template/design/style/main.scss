@@ -1,0 +1,15 @@
+@import 'components/vars';
+@import 'components/defaults';
+@import 'components/sidebar';
+@import 'components/content-section';
+@import 'components/cardSection';
+@import 'components/dashboard';
+
+
+@import 'components/products/get';
+@import 'components/products/create';
+
+/*****sales ********/
+
+@import 'components/sales/index';
+@import 'components/order/invoice';
